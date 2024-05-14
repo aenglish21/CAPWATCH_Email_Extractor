@@ -26,8 +26,8 @@ def extract_emails(excel_path, txt_file_path):
     except Exception as e:
         print("An error occurred:", e)
 
-# Example usage
+# File Paths
 extract_emails(
     'path_to_excel_file.xlsx',  # Path to the Excel file with the CAPID's in them
-    'path_to_text_file.txt'     # Path to the text file
+    'path_to_text_file.txt'     # Path to the MbrContact.txt file
 )
